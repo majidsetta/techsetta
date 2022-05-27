@@ -1,0 +1,180 @@
+ @font-face { 
+ 	font-family: "Great Vibes";
+ 	src: url("./media/GreatVibes-Regular.ttf") format("truetype") ;
+ 	}
+ 	html{
+ 		scroll-behavior: smooth;
+ 	}
+ body {
+ 	padding: 0;
+ 	margin: 0;
+ }
+ section
+ {
+ 	padding:40px ;
+ }
+
+body h1 {
+	font-family: Great Vibes, sans-serif;
+	text-align: center;
+	font-size: 8em;
+	margin-top: 100px;
+	color: floralwhite;
+	text-shadow: 1px 7px 2px black;
+}
+body h3 {
+	font-family: Great Vibes, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	margin-top: 100px;
+	color: floralwhite;
+	text-shadow: 1px 4px 2px black;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+h2 {
+	font-family: "Dancing script", cursive;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 4em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+nav {
+	overflow: hidden;
+	background-color: #F99804 ;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+
+header ul {
+	font-family: "Dancing script", cursive;
+}
+
+header li {
+float: right;
+font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 8px 8px;
+}
+#logo {
+	font-family: "Dancing script", cursive;
+	font-weight: bold;
+	float: left;
+}
+#photo-tanger {
+	padding-top: 60px;
+	background: url(./media/photo-tanger.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+#présentation {
+	background-color: #FFFAE1;
+	padding: 10 px 0px 100px 0;
+}
+#Texte-intro {
+	padding: 0px 20%;
+	font-family: "Dancing script", cursive;
+}
+.prestations{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30 px 10%;
+}
+.prestations h4{
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	font-size: 1.9em;
+	margin: 15px;
+	font-weight: 300;
+}
+.prestations img{
+	border-radius: 10px 100px / 120px;
+	box-shadow: 5px 5px 5px 4px rgba(0,0,0,0.83);
+}
+.prestations img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.5s ease-in-out;
+}
+footer {
+	background-color: #524A3A;
+	color: floralwhite;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	max-width: 900px;
+}
+input, button, textarea {
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: "advent Pro", sans-serif;
+	border-radius: 8px;
+}
+textarea {
+	height: 120px;
+}
+button {
+	font-size: 1.5em;
+	background-color: floralwhite;
+}
+button:hover {
+	background-color: red;
+	color: floralwhite;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: floralwhite;
+	padding: 10%;
+}
+#deuxiemeTrait {
+	height: 1px;
+	width: 75%;
+	background-color: floralwhite;
+	margin: 60px auto;
+}
+/**********************FAQ**********************/
+body {
+  background-color: #524A3A;
+}
+.layout {
+  width: 600px;
+  margin: auto;
+}
+.accordion {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: floralwhite;
+  border-radius: 10px;
+}
+.accordion__question p {
+  margin: 5px;
+  padding: 0;
+  font-family: verdana;
+  font-size: 25px;
+}
+#plan {
+	background-color: #FFFAE1;
+	padding: 10 px 0px 100px 0;
