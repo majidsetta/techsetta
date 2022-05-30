@@ -82,7 +82,7 @@ header li a {
 }
 #présentation {
 	background-color: #FFFAE1;
-	padding: 10 px 0px 100px 0;
+	padding: 130px 0px 100px 0;
 }
 #Texte-intro {
 	padding: 0px 20%;
@@ -153,7 +153,30 @@ button:hover {
 	width: 75%;
 	background-color: floralwhite;
 	margin: 60px auto;
+
 }
+#plandusite
+{
+	font-size: 2em;
+	color: floralwhite;
+	font-family: Great Vibes, sans-serif;
+}
+
+#plandusite1 {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 5em;
+		font-family: Great Vibes, sans-serif;
+		padding: 30px 0px 100px 0;
+}
+
+#plandusite1 a {
+	color: floralwhite;
+}
+#retouraccueil {
+	font-size: 1.5em;
+}
+
 /**********************FAQ**********************/
 body {
   background-color: #524A3A;
@@ -177,4 +200,4 @@ body {
 }
 #plan {
 	background-color: #FFFAE1;
-	padding: 10 px 0px 100px 0;
+	padding: 10 px 0px 100px 0; 
