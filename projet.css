@@ -135,7 +135,7 @@ input, button, textarea {
 	margin: 1px 0;
 	font-size: 1.2em;
 	font-family: "advent Pro", sans-serif;
-	border-radius: 8px;
+	border-radius: 18px;
 }
 textarea {
 	height: 120px;
